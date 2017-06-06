@@ -1,0 +1,13 @@
+@import url(style.scss);
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #466889; }
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'microsoft yahei'; }

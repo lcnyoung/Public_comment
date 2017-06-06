@@ -1,0 +1,168 @@
+@import url("../font/iconfont.css");
+.mobile, .verify, .pwd, .account {
+  width: calc(100% - 60px);
+  height: 80px;
+  background: #fff;
+  padding: 30px;
+  margin-top: 60px; }
+  .mobile .prefix, .verify .prefix, .pwd .prefix, .account .prefix, .verify .veri-pre, .pwd .veri-pre, .account .acc-pre, .pwd .pwd-pre {
+    width: 20%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 3.0rem;
+    float: left;
+    font-weight: 550;
+    border-right: 1px solid #e1e1e1;
+    text-indent: 1em; }
+  .mobile .inp, .verify .inp, .pwd .inp, .account .inp, .verify .veri-inp, .pwd .veri-inp, .account .acc-inp, .pwd .pwd-inp {
+    width: 70%;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    position: relative; }
+    .mobile .inp .inp-mobi, .verify .inp .inp-mobi, .pwd .inp .inp-mobi, .account .inp .inp-mobi, .verify .veri-inp .inp-mobi, .pwd .veri-inp .inp-mobi, .account .acc-inp .inp-mobi, .pwd .pwd-inp .inp-mobi, .verify .veri-inp .inp-code, .pwd .veri-inp .inp-code, .account .acc-inp .inp-con, .pwd .pwd-inp .inp-con {
+      width: 60%;
+      height: 80px;
+      outline: none;
+      border: none;
+      font-size: 3.0rem;
+      text-indent: 1em;
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #999; }
+      .mobile .inp .inp-mobi:focus, .verify .inp .inp-mobi:focus, .pwd .inp .inp-mobi:focus, .account .inp .inp-mobi:focus, .verify .veri-inp .inp-mobi:focus, .pwd .veri-inp .inp-mobi:focus, .account .acc-inp .inp-mobi:focus, .pwd .pwd-inp .inp-mobi:focus, .verify .veri-inp .inp-code:focus, .pwd .veri-inp .inp-code:focus, .account .acc-inp .inp-con:focus, .pwd .pwd-inp .inp-con:focus {
+        color: red; }
+    .mobile .inp .inp-send, .verify .inp .inp-send, .pwd .inp .inp-send, .account .inp .inp-send, .verify .veri-inp .inp-send, .pwd .veri-inp .inp-send, .account .acc-inp .inp-send, .pwd .pwd-inp .inp-send {
+      width: 38%;
+      height: 76px;
+      border: 2px  solid #c1c1c1;
+      position: absolute;
+      top: 0;
+      right: -10%;
+      outline: none;
+      font-size: 3.0rem;
+      border-radius: 4px;
+      background: #fff;
+      color: #343434; }
+
+.verify, .pwd {
+  margin-top: 0;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1; }
+  .verify .veri-pre, .pwd .veri-pre {
+    border: none; }
+
+.account {
+  margin-top: 0; }
+  .account .acc-pre {
+    border: none; }
+
+.pwd .pwd-pre {
+  border: none; }
+
+.tip {
+  color: #999;
+  font-size: 2.6rem;
+  text-align: center;
+  line-height: 90px; }
+
+.notice {
+  width: 100%;
+  height: 230px;
+  background: #fff3dd;
+  border-bottom: 1px solid #f3d08c;
+  border-top: 1px solid #f3d08c;
+  box-shadow: 3px -3px 6px -6px #ede2cd;
+  position: relative; }
+  .notice .con {
+    width: 80%;
+    height: auto;
+    color: #e58f1f;
+    line-height: 72px;
+    font-size: 3.6rem;
+    position: absolute;
+    left: 5%;
+    top: 0; }
+  .notice .close {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    right: 5%;
+    top: calc(50% - 28px);
+    border: 1px solid #edc498;
+    color: #edc498;
+    font-size: 5.0rem; }
+
+.btn-login {
+  width: 90%;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+  font-size: 4.0rem;
+  text-align: center;
+  color: #fff;
+  background: #f5d0a8;
+  border-radius: 8px; }
+
+.switch, .forgot {
+  font-size: 3.8rem;
+  color: #446889;
+  text-align: right;
+  line-height: 150px;
+  padding-right: 5%; }
+
+.forgot {
+  text-align: left;
+  padding-left: 5%;
+  font-size: 3.2rem;
+  line-height: 100px; }
+
+fieldset {
+  border: none;
+  border-top: 2px solid #999;
+  font-size: 3.6rem;
+  width: 90%;
+  margin: 80px auto 0 auto; }
+  fieldset legend {
+    color: #999;
+    text-align: center; }
+  fieldset .icons {
+    width: 33%;
+    height: 350px;
+    text-align: center;
+    font-family: 'iconfont';
+    float: left; }
+    fieldset .icons .we, fieldset .icons .qq, fieldset .icons .sina {
+      font-size: 12.0rem;
+      color: #30ce39;
+      margin-top: 50px; }
+    fieldset .icons .qq {
+      color: #2ab6fa;
+      font-size: 11.5rem; }
+    fieldset .icons .sina {
+      color: #ff7665; }
+    fieldset .icons .appname {
+      margin-top: 40px;
+      color: #333; }
+    fieldset .icons .h {
+      margin-top: 48px; }
+
+.dis {
+  margin-top: 5%; }
+
+.warning {
+  width: 80%;
+  height: 200px;
+  font-size: 3.0rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 15%;
+  left: 10%;
+  display: none;
+  line-height: 200px;
+  color: #fff; }

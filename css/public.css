@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #466889; }
+
+html, body {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'microsoft yahei'; }
+
+body {
+  background: #f0f0f0; }
+
+.top {
+  width: 100%;
+  height: 130px;
+  font-size: 4.4rem;
+  line-height: 130px;
+  text-align: center;
+  background: #fcfcfc;
+  color: #323232;
+  font-weight: 550;
+  box-shadow: 1px 1px 6px 6px #ddd; }

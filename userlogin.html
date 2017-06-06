@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户短信登陆</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="top">
+        <span>手机号快捷登陆</span>
+    </header>
+    <div class="mobile">
+        <div class="prefix">+86</div>
+        <div class="inp">
+            <input type="text" class="inp-mobi" placeholder="手机号">
+            <input type="button" class="inp-send" value="获取验证码">
+        </div>
+    </div>
+    <div class="verify">
+        <div class="veri-pre">验证码</div>
+        <div class="veri-inp">
+            <input type="text" class="inp-code" placeholder="请输入短信验证码">
+        </div>
+    </div>
+    <p class="tip">未注册的手机号码验证后自动创建点评账户</p>
+    <div class="btn-login">登陆</div>
+    <a href="accountlogin.html"><p class="switch">账号密码登陆</p></a>
+    <fieldset>
+        <legend>第三方账号登陆</legend>
+        <div class="icons">
+            <p class="we">&#xe60a;</p>
+            <p class="appname">微信</p>
+        </div>
+        <div class="icons">
+            <p class="qq">&#xe600;</p>
+            <p class="appname h">QQ</p>
+        </div>
+        <div class="icons">
+            <p class="sina">&#xe63d;</p>
+            <p class="appname">新浪</p>
+        </div>
+    </fieldset>
+    <p class="tip">登陆即表示您同意大众点评<a href="">用户使用协议</a></p>
+    
+    <div class="warning"></div>
+</body>
+</html>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/login.js"></script>
