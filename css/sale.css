@@ -1,146 +1,51 @@
 @import url("../font/iconfont.css");
-.saleshow {
-  height: 220px;
-  width: 100%;
-  background: url("../imgs/lobster.jpg") no-repeat;
-  background-size: cover;
-  overflow: hidden; }
-  .saleshow .sale-title {
-    font-size: 3.0rem;
-    line-height: 45px;
-    margin-top: 110px;
-    color: #fff;
-    margin-left: 2%; }
-  .saleshow .sale-des {
-    font-size: 1.8rem;
-    line-height: 30px;
-    color: #fff;
-    margin-left: 2%; }
+.saleshow { height: 220px; width: 100%; background: url("../imgs/lobster.jpg") no-repeat; background-size: cover; overflow: hidden; }
+.saleshow .sale-title { font-size: 3.0rem; line-height: 45px; margin-top: 110px; color: #fff; margin-left: 2%; }
+.saleshow .sale-des { font-size: 1.8rem; line-height: 30px; color: #fff; margin-left: 2%; }
 
-.saleprop {
-  width: 100%;
-  height: 50px;
-  color: #65c07a;
-  background: #fff;
-  border-bottom: 1px solid #d7d7d7; }
-  .saleprop .props, .saleprop .soldcount {
-    font-size: 1.2rem;
-    line-height: 50px;
-    width: auto;
-    margin-left: 3%;
-    font-family: 'iconfont';
-    float: left; }
-  .saleprop .iconsize {
-    font-size: 1.5rem; }
-  .saleprop .soldcount {
-    color: #999;
-    float: right;
-    margin-right: 6%; }
+.saleprop { width: 100%; height: 50px; color: #65c07a; background: #fff; border-bottom: 1px solid #d7d7d7; }
+.saleprop .props, .saleprop .soldcount { font-size: 1.2rem; line-height: 50px; width: auto; margin-left: 3%; font-family: 'iconfont'; float: left; }
+.saleprop .iconsize { font-size: 1.5rem; }
+.saleprop .soldcount { color: #999; float: right; margin-right: 6%; }
 
-.comments {
-  width: 100%;
-  height: 50px;
-  background: #fff;
-  border-top: #d7d7d7 1px solid;
-  border-bottom: #d7d7d7 1px solid;
-  margin-top: 15px; }
-  .comments .rate-l, .comments .rate-r {
-    font-size: 1.6rem;
-    line-height: 50px;
-    margin-left: 3%;
-    color: #333;
-    float: left; }
-    .comments .rate-l .precent, .comments .rate-r .precent {
-      color: #ff6633; }
-  .comments .rate-r {
-    color: #999;
-    float: right;
-    margin-right: 3%; }
+.comments { width: 100%; height: 50px; background: #fff; border-top: #d7d7d7 1px solid; border-bottom: #d7d7d7 1px solid; margin-top: 15px; }
+.comments .rate-l, .comments .rate-r { font-size: 1.6rem; line-height: 50px; margin-left: 3%; color: #333; float: left; }
+.comments .rate-l .precent, .comments .rate-r .precent { color: #ff6633; }
+.comments .rate-r { color: #999; float: right; margin-right: 3%; }
 
-.location {
-  border-top: #d7d7d7 1px solid;
-  border-bottom: #d7d7d7 1px solid;
-  width: 100%;
-  height: 220px;
-  margin-top: 15px;
-  font-size: 1.6rem;
-  background: #fff; }
-  .location .shops {
-    margin-left: 3%;
-    width: 97%;
-    height: 50px;
-    line-height: 50px;
-    color: #666;
-    border-bottom: #d7d7d7 1px solid; }
-    .location .shops .shops-l {
-      float: left; }
-    .location .shops .shops-r {
-      float: right;
-      margin-right: 3%; }
-  .location .shops-list {
-    margin-left: 3%;
-    width: 97%;
-    height: 100px;
-    border-bottom: #d7d7d7 1px solid;
-    color: #333; }
-    .location .shops-list .list-l {
-      font-size: 2.0rem;
-      height: 100px;
-      width: 100px;
-      line-height: 60px;
-      float: left; }
-      .location .shops-list .list-l .score {
-        width: 90%;
-        height: 35px;
-        background: #ccc; }
-    .location .shops-list .list-r {
-      float: right;
-      margin-right: 3%;
-      width: 20%;
-      border-left: 1px solid #d7d7d7;
-      height: 60px;
-      margin-top: 20px;
-      font-family: 'iconfont';
-      font-size: 3.0rem;
-      color: #ff6633;
-      line-height: 60px;
-      text-align: center; }
+.location, .saleinfo, .recommend { border-top: #d7d7d7 1px solid; border-bottom: #d7d7d7 1px solid; width: 100%; font-family: 'iconfont'; height: 200px; margin-top: 15px; font-size: 1.6rem; background: #fff; }
+.location .shops, .saleinfo .shops, .recommend .shops, .location .shops-address, .saleinfo .shops-address, .recommend .shops-address, .saleinfo .info-tit, .recommend .rec-tit, .recommend .rec-shops { margin-left: 3%; width: 97%; height: 50px; line-height: 50px; color: #666; border-bottom: #d7d7d7 1px solid; }
+.location .shops .shops-l, .saleinfo .shops .shops-l, .recommend .shops .shops-l, .location .shops-address .shops-l, .saleinfo .shops-address .shops-l, .recommend .shops-address .shops-l, .saleinfo .info-tit .shops-l, .recommend .rec-tit .shops-l, .recommend .rec-shops .shops-l, .location .shops-address .add-l, .saleinfo .shops-address .add-l, .recommend .shops-address .add-l { float: left; }
+.location .shops .shops-r, .saleinfo .shops .shops-r, .recommend .shops .shops-r, .location .shops-address .shops-r, .saleinfo .shops-address .shops-r, .recommend .shops-address .shops-r, .saleinfo .info-tit .shops-r, .recommend .rec-tit .shops-r, .recommend .rec-shops .shops-r, .location .shops-address .add-r, .saleinfo .shops-address .add-r, .recommend .shops-address .add-r { float: right; margin-right: 3%; }
+.location .shops-address, .saleinfo .shops-address, .recommend .shops-address { border: none; }
+.location .shops-list, .saleinfo .shops-list, .recommend .shops-list, .saleinfo .info-con { margin-left: 3%; width: 97%; height: 100px; border-bottom: #d7d7d7 1px solid; color: #333; }
+.location .shops-list .list-l, .saleinfo .shops-list .list-l, .recommend .shops-list .list-l, .saleinfo .info-con .list-l { font-size: 2.0rem; height: 100px; width: 100px; line-height: 60px; float: left; }
+.location .shops-list .list-l .score, .saleinfo .shops-list .list-l .score, .recommend .shops-list .list-l .score, .saleinfo .info-con .list-l .score { width: 90%; height: 35px; background: #ccc; }
+.location .shops-list .list-r, .saleinfo .shops-list .list-r, .recommend .shops-list .list-r, .saleinfo .info-con .list-r { float: right; margin-right: 3%; width: 20%; border-left: 1px solid #d7d7d7; height: 60px; margin-top: 20px; font-family: 'iconfont'; font-size: 3.0rem; color: #ff6633; line-height: 60px; text-align: center; }
 
-.buy {
-  height: 70px;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  border-top: 1px solid #d4d4d4;
-  background: #fff; }
-  .buy .price {
-    height: 30px;
-    color: #ff6633;
-    font-size: 3.0rem;
-    margin-top: 15px;
-    text-indent: 1em;
-    float: left; }
-  .buy .font30 {
-    font-size: 1.5rem; }
-  .buy .oldprice {
-    font-size: 1.4rem;
-    color: #999; }
-  .buy .btn-buy {
-    width: 30%;
-    height: 40px;
-    background: #ff6633;
-    margin-right: 5%;
-    margin-top: 15px;
-    line-height: 40px;
-    font-size: 1.5rem;
-    color: #fff;
-    float: right;
-    text-align: center;
-    border-radius: 5px; }
+.saleinfo { height: auto; }
+.saleinfo .info-con { height: auto; overflow: hidden; border: none; }
+.saleinfo .info-con .info-con-l { width: 50%; float: left; font-size: 1.4rem; line-height: 30px; }
+.saleinfo .info-con .info-con-c { width: 25%; float: left; list-style: none; line-height: 30px; }
+.saleinfo .info-con .info-con-r { width: 22%; float: left; list-style: none; line-height: 30px; text-align: right; margin-right: 3%; }
+.saleinfo .info-con .highlight { font-size: 1.8rem; color: #ff6633; }
+.saleinfo .info-detail { font-size: 1.4rem; line-height: 20px; margin-left: 3%; }
 
-@media screen and (min-width: 768px) {
-  .saleshow {
-    height: 400px; }
-    .saleshow .sale-title {
-      margin-top: 300px; } }
+.recommend { height: auto; }
+.recommend .rec-shops { width: calc(97% - 20px); height: 80px; padding: 10px; }
+.recommend .rec-shops .shops-pic { width: 30%; height: 80px; float: left; background: url(../imgs/lobster.jpg) no-repeat; background-size: cover; }
+.recommend .rec-shops .shops-info, .recommend .rec-shops .shops-sold { float: left; width: 47%; margin-left: 3%; line-height: 26px; }
+.recommend .rec-shops .shops-sold { width: 17%; text-align: right; }
+
+.block { height: 80px; width: 100%; }
+
+.buy { height: 70px; width: 100%; position: fixed; left: 0; bottom: 0; z-index: 3; border-top: 1px solid #d4d4d4; background: rgba(255, 255, 255, 0.8); }
+.buy .price { height: 30px; color: #ff6633; font-size: 3.0rem; margin-top: 15px; text-indent: 1em; float: left; }
+.buy .font30 { font-size: 1.5rem; }
+.buy .oldprice { font-size: 1.4rem; color: #999; }
+.buy .btn-buy { width: 30%; height: 40px; background: #ff6633; margin-right: 5%; margin-top: 15px; line-height: 40px; font-size: 1.5rem; color: #fff; float: right; text-align: center; border-radius: 5px; }
+
+@media screen and (min-width: 768px) { .saleshow { height: 400px; }
+  .saleshow .sale-title { margin-top: 300px; } }
+
+/*# sourceMappingURL=sale.css.map */

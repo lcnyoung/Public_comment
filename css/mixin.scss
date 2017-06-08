@@ -1,0 +1,6 @@
+@mixin center-p($l,$t){
+    left: 50%;
+    top:50%;
+    margin-left: $l;
+    margin-top: $t;
+}

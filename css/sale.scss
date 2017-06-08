@@ -1,0 +1,264 @@
+@import url('../font/iconfont.css');
+
+.saleshow{
+    height: 220px;
+    width: 100%;
+    background: url('../imgs/lobster.jpg') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    .sale-title{
+        font-size: 3.0rem;
+        line-height: 45px;
+        margin-top: 110px;
+        color: #fff;
+        margin-left: 2%;
+    }
+    .sale-des{
+        font-size: 1.8rem;
+        line-height: 30px;
+        color: #fff;
+        margin-left: 2%;
+    }
+}
+.saleprop{
+    width: 100%;
+    height: 50px;
+    color: #65c07a;
+    background: #fff;
+    border-bottom:  1px solid #d7d7d7;
+    .props{
+        font-size: 1.2rem;
+        line-height: 50px;
+        width: auto;
+        margin-left: 3%;
+        font-family: 'iconfont';
+        float: left;
+    }
+    .iconsize{
+        font-size: 1.5rem;
+    }
+    .soldcount{
+        @extend .props;
+        color: #999;
+        float: right;
+        margin-right: 6%;
+    }
+}
+.comments{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-top: #d7d7d7 1px solid;
+    border-bottom: #d7d7d7 1px solid;
+    margin-top: 15px;
+    .rate-l{
+        font-size: 1.6rem;
+        line-height: 50px;
+        margin-left: 3%;
+        color: #333;
+        float: left;
+        .precent{
+            color: #ff6633;
+        }
+    }
+    .rate-r{
+        @extend .rate-l;
+        color: #999;
+        float: right;
+        margin-right: 3%;
+    }
+}
+.location{
+    border-top: #d7d7d7 1px solid;
+    border-bottom: #d7d7d7 1px solid;
+    width: 100%;
+    font-family: 'iconfont';
+    height: 200px;
+    margin-top: 15px;
+    font-size: 1.6rem;
+    background: #fff;
+    .shops{
+        margin-left: 3%;
+        width: 97%;
+        height: 50px;
+        line-height: 50px;
+        color: #666;
+        border-bottom: #d7d7d7 1px solid;
+        .shops-l{
+            float: left;
+        }
+        .shops-r{
+            float: right;
+            margin-right: 3%;
+        }
+    }
+    .shops-address{
+        @extend .shops;
+        border: none;
+        .add-l{
+            @extend .shops-l;
+        }
+        .add-r{
+            @extend .shops-r;
+        }
+    }
+    .shops-list{
+        margin-left: 3%;
+        width: 97%;
+        height: 100px;
+        border-bottom: #d7d7d7 1px solid;
+        color: #333;
+        .list-l{
+            font-size: 2.0rem;
+            height: 100px;
+            width: 100px;
+            line-height: 60px;
+            float: left;
+            .score{
+                width: 90%;
+                height: 35px;
+                background: #ccc;
+            }
+        }
+        .list-r{
+            float: right;
+            margin-right: 3%;
+            width: 20%;
+            border-left: 1px solid #d7d7d7;
+            height: 60px;
+            margin-top: 20px;
+            font-family: 'iconfont';
+            font-size: 3.0rem;
+            color: #ff6633;
+            line-height: 60px;
+            text-align: center;
+        }
+    }
+}
+.saleinfo{
+    @extend .location;
+    height: auto;
+    .info-tit{
+        @extend .shops;
+    }
+    .info-con{
+        @extend .shops-list;
+        height: auto;
+        overflow: hidden;
+        border: none;
+        .info-con-l{
+            width: 50%;
+            float: left;
+            font-size: 1.4rem;
+            line-height: 30px;
+        }
+        .info-con-c{
+            width: 25%;
+            float: left;
+            list-style: none;
+            line-height: 30px;
+        }
+        .info-con-r{
+            width: 22%;
+            float: left;
+            list-style: none;
+            line-height: 30px;
+            text-align: right;
+            margin-right: 3%;
+        }
+        .highlight{
+            font-size: 1.8rem;
+            color: #ff6633;
+        }
+    }
+    .info-detail{
+        font-size: 1.4rem;
+        line-height: 20px;
+        margin-left: 3%;
+    }
+}
+.recommend{
+    @extend .location;
+    height: auto;
+    .rec-tit{
+        @extend .shops;
+    }
+    .rec-shops{
+        @extend .shops;
+        width: calc(97% - 20px);
+        height: 80px;
+        padding: 10px;
+        
+        .shops-pic{
+            width: 30%;
+            height: 80px;
+            float: left;
+            background: url(../imgs/lobster.jpg) no-repeat;
+            background-size: cover;
+        }
+        .shops-info{
+            float: left;
+            width: 47%;
+            margin-left: 3%;
+            line-height: 26px;
+        }
+        .shops-sold{
+            @extend .shops-info;
+            width: 17%;
+            text-align: right;
+        }
+    }
+}
+.block{
+    height: 80px;
+    width: 100%;
+}
+.buy{
+    height:70px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    border-top: 1px solid #d4d4d4;
+    background: rgba(255,255,255,0.8);
+
+    .price{
+        height: 30px;
+        color: #ff6633;
+        font-size: 3.0rem;
+        margin-top: 15px;
+        text-indent: 1em;
+        float: left;
+    }
+    .font30{
+        font-size: 1.5rem;
+    }
+    .oldprice{
+        font-size: 1.4rem;
+        color: #999;
+    }
+    .btn-buy{
+        width: 30%;
+        height: 40px;
+        background: #ff6633;
+        margin-right: 5%;
+        margin-top: 15px;
+        line-height: 40px;
+        font-size: 1.5rem;
+        color: #fff;
+        float: right;
+        text-align: center;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .saleshow{
+        height: 400px;
+        .sale-title{
+            margin-top: 300px;
+        }
+    }
+    
+}

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #466889;
+}
+
+html,body{
+    height: 100%;
+    font-size: 62.5%;
+    font-family: 'microsoft yahei';
+}
+body{
+    background: #f0f0f0;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    font-size: 2.2rem;
+    line-height: 60px;
+    text-align: center;
+    background: #fcfcfc;
+    color: #323232;
+    font-weight: 550;
+    box-shadow: 1px 1px 3px 3px #ddd;
+}  
+
+.back{
+    width:  37px;
+    line-height: 60px;
+    float: left;
+    margin-left: 3%;
+    color: #ff6633;
+    font-family: 'iconfont';
+    font-size: 3.0rem;
+}
+.share,.collect{
+    @extend .back;
+    float: right;
+    margin-right: 2%;
+    margin-left: 0;
+}
+.collect{
+    line-height: 55px;
+}
+.thumb{
+    font-family: 'iconfont';
+    color: #bbb;
+    font-size: 2.0rem;
+}
+.arrow-right{
+    @extend .thumb;
+}
+
+.saleprop{
+    width: 100%;
+    height: 50px;
+    color: #65c07a;
+
+    .props{
+        font-size: 1.2rem;
+        line-height: 50px;
+        width: auto;
+        margin-left: 3%;
+        font-family: 'iconfont';
+        float: left;
+    }
+    .iconsize{
+        font-size: 1.5rem;
+    }
+
+}

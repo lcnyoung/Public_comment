@@ -1,185 +1,46 @@
 @import url("../font/iconfont.css");
-.mobile, .verify, .pwd, .account {
-  width: calc(100% - 30px);
-  height: 30px;
-  background: #fff;
-  padding: 15px;
-  margin-top: 30px; }
-  .mobile .prefix, .verify .prefix, .pwd .prefix, .account .prefix, .verify .veri-pre, .pwd .veri-pre, .account .acc-pre, .pwd .pwd-pre {
-    width: 20%;
-    height: 30px;
-    line-height: 30px;
-    font-size: 1.5rem;
-    float: left;
-    font-weight: 550;
-    border-right: 1px solid #e1e1e1;
-    text-indent: 1em; }
-  .mobile .inp, .verify .inp, .pwd .inp, .account .inp, .verify .veri-inp, .pwd .veri-inp, .account .acc-inp, .pwd .pwd-inp {
-    width: 70%;
-    height: 30px;
-    line-height: 30px;
-    float: left;
-    position: relative; }
-    .mobile .inp .inp-mobi, .verify .inp .inp-mobi, .pwd .inp .inp-mobi, .account .inp .inp-mobi, .verify .veri-inp .inp-mobi, .pwd .veri-inp .inp-mobi, .account .acc-inp .inp-mobi, .pwd .pwd-inp .inp-mobi, .verify .veri-inp .inp-code, .pwd .veri-inp .inp-code, .account .acc-inp .inp-con, .pwd .pwd-inp .inp-con {
-      width: 60%;
-      height: 30px;
-      outline: none;
-      border: none;
-      font-size: 1.5rem;
-      text-indent: 1em;
-      position: absolute;
-      left: 0;
-      top: 0;
-      color: #999; }
-      .mobile .inp .inp-mobi:focus, .verify .inp .inp-mobi:focus, .pwd .inp .inp-mobi:focus, .account .inp .inp-mobi:focus, .verify .veri-inp .inp-mobi:focus, .pwd .veri-inp .inp-mobi:focus, .account .acc-inp .inp-mobi:focus, .pwd .pwd-inp .inp-mobi:focus, .verify .veri-inp .inp-code:focus, .pwd .veri-inp .inp-code:focus, .account .acc-inp .inp-con:focus, .pwd .pwd-inp .inp-con:focus {
-        color: red; }
-    .mobile .inp .inp-send, .verify .inp .inp-send, .pwd .inp .inp-send, .account .inp .inp-send, .verify .veri-inp .inp-send, .pwd .veri-inp .inp-send, .account .acc-inp .inp-send, .pwd .pwd-inp .inp-send {
-      width: 38%;
-      height: 26px;
-      border: 1px  solid #c1c1c1;
-      position: absolute;
-      top: 0;
-      right: -10%;
-      outline: none;
-      font-size: 1.5rem;
-      border-radius: 4px;
-      background: #fff;
-      color: #343434; }
+.mobile, .verify, .pwd, .account { width: calc(100% - 30px); height: 30px; background: #fff; padding: 15px; margin-top: 30px; }
+.mobile .prefix, .verify .prefix, .pwd .prefix, .account .prefix, .verify .veri-pre, .pwd .veri-pre, .account .acc-pre, .pwd .pwd-pre { width: 20%; height: 30px; line-height: 30px; font-size: 1.5rem; float: left; font-weight: 550; border-right: 1px solid #e1e1e1; text-indent: 1em; }
+.mobile .inp, .verify .inp, .pwd .inp, .account .inp, .verify .veri-inp, .pwd .veri-inp, .account .acc-inp, .pwd .pwd-inp { width: 70%; height: 30px; line-height: 30px; float: left; position: relative; }
+.mobile .inp .inp-mobi, .verify .inp .inp-mobi, .pwd .inp .inp-mobi, .account .inp .inp-mobi, .verify .veri-inp .inp-mobi, .pwd .veri-inp .inp-mobi, .account .acc-inp .inp-mobi, .pwd .pwd-inp .inp-mobi, .verify .veri-inp .inp-code, .pwd .veri-inp .inp-code, .account .acc-inp .inp-con, .pwd .pwd-inp .inp-con { width: 60%; height: 30px; outline: none; border: none; font-size: 1.5rem; text-indent: 1em; position: absolute; left: 0; top: 0; color: #999; }
+.mobile .inp .inp-mobi:focus, .verify .inp .inp-mobi:focus, .pwd .inp .inp-mobi:focus, .account .inp .inp-mobi:focus, .verify .veri-inp .inp-mobi:focus, .pwd .veri-inp .inp-mobi:focus, .account .acc-inp .inp-mobi:focus, .pwd .pwd-inp .inp-mobi:focus, .verify .veri-inp .inp-code:focus, .pwd .veri-inp .inp-code:focus, .account .acc-inp .inp-con:focus, .pwd .pwd-inp .inp-con:focus { color: red; }
+.mobile .inp .inp-send, .verify .inp .inp-send, .pwd .inp .inp-send, .account .inp .inp-send, .verify .veri-inp .inp-send, .pwd .veri-inp .inp-send, .account .acc-inp .inp-send, .pwd .pwd-inp .inp-send { width: 38%; height: 26px; border: 1px  solid #c1c1c1; position: absolute; top: 0; right: -10%; outline: none; font-size: 1.5rem; border-radius: 4px; background: #fff; color: #343434; }
 
-@media screen and (max-width: 321px) {
-  .mobile .prefix, .verify .prefix, .pwd .prefix, .account .prefix, .verify .veri-pre, .pwd .veri-pre, .account .acc-pre, .pwd .pwd-pre, .mobile .inp, .verify .inp, .pwd .inp, .account .inp, .verify .veri-inp, .pwd .veri-inp, .account .acc-inp, .pwd .pwd-inp {
-    font-size: 1.2rem; } }
+@media screen and (max-width: 321px) { .mobile .prefix, .verify .prefix, .pwd .prefix, .account .prefix, .verify .veri-pre, .pwd .veri-pre, .account .acc-pre, .pwd .pwd-pre, .mobile .inp, .verify .inp, .pwd .inp, .account .inp, .verify .veri-inp, .pwd .veri-inp, .account .acc-inp, .pwd .pwd-inp { font-size: 1.2rem; } }
+.verify, .pwd { margin-top: 0; border-bottom: 1px solid #e1e1e1; border-top: 1px solid #e1e1e1; }
+.verify .veri-pre, .pwd .veri-pre { border: none; }
 
-.verify, .pwd {
-  margin-top: 0;
-  border-bottom: 1px solid #e1e1e1;
-  border-top: 1px solid #e1e1e1; }
-  .verify .veri-pre, .pwd .veri-pre {
-    border: none; }
+.account { margin-top: 0; }
+.account .acc-pre { border: none; }
 
-.account {
-  margin-top: 0; }
-  .account .acc-pre {
-    border: none; }
+.pwd .pwd-pre { border: none; }
 
-.pwd .pwd-pre {
-  border: none; }
+.tip { color: #999; font-size: 1.3rem; text-align: center; line-height: 45px; }
 
-.tip {
-  color: #999;
-  font-size: 1.3rem;
-  text-align: center;
-  line-height: 45px; }
+.notice { width: 100%; height: 120px; background: #fff3dd; border-bottom: 1px solid #f3d08c; border-top: 1px solid #f3d08c; box-shadow: 3px -3px 6px -6px #ede2cd; position: relative; }
+.notice .con { width: 80%; height: auto; color: #e58f1f; line-height: 36px; font-size: 1.8rem; position: absolute; left: 5%; top: 0; }
+.notice .close { width: 28px; height: 28px; border-radius: 14px; text-align: center; line-height: 25px; position: absolute; right: 5%; top: calc(50% - 14px); border: 1px solid #edc498; color: #edc498; font-size: 2.5rem; }
 
-.notice {
-  width: 100%;
-  height: 120px;
-  background: #fff3dd;
-  border-bottom: 1px solid #f3d08c;
-  border-top: 1px solid #f3d08c;
-  box-shadow: 3px -3px 6px -6px #ede2cd;
-  position: relative; }
-  .notice .con {
-    width: 80%;
-    height: auto;
-    color: #e58f1f;
-    line-height: 36px;
-    font-size: 1.8rem;
-    position: absolute;
-    left: 5%;
-    top: 0; }
-  .notice .close {
-    width: 28px;
-    height: 28px;
-    border-radius: 14px;
-    text-align: center;
-    line-height: 25px;
-    position: absolute;
-    right: 5%;
-    top: calc(50% - 14px);
-    border: 1px solid #edc498;
-    color: #edc498;
-    font-size: 2.5rem; }
+@media screen and (min-width: 768px) { .notice { height: 72px; } }
+@media screen and (max-width: 321px) { .notice { height: 150px; } }
+@media screen and (min-width: 1024px) { .notice { height: 36px; } }
+.btn-login { width: 90%; height: 50px; line-height: 50px; margin: 0 auto; font-size: 2.0rem; text-align: center; color: #fff; background: #f5d0a8; border-radius: 8px; }
 
-@media screen and (min-width: 768px) {
-  .notice {
-    height: 72px; } }
+.switch, .forgot { font-size: 1.9rem; color: #446889; text-align: right; line-height: 60px; padding-right: 5%; }
 
-@media screen and (max-width: 321px) {
-  .notice {
-    height: 150px; } }
+.forgot { text-align: left; padding-left: 5%; font-size: 1.6rem; line-height: 50px; }
 
-@media screen and (min-width: 1024px) {
-  .notice {
-    height: 36px; } }
+fieldset { border: none; border-top: 1px solid #999; font-size: 1.8rem; width: 90%; margin: 40px auto 0 auto; }
+fieldset legend { color: #999; text-align: center; }
+fieldset .icons { width: 33%; height: 175px; text-align: center; font-family: 'iconfont'; float: left; }
+fieldset .icons .we, fieldset .icons .qq, fieldset .icons .sina { font-size: 6.0rem; color: #30ce39; margin-top: 25px; }
+fieldset .icons .qq { color: #2ab6fa; font-size: 5.8rem; }
+fieldset .icons .sina { color: #ff7665; }
+fieldset .icons .appname { margin-top: 20px; color: #333; font-size: 1.6rem; }
+fieldset .icons .h { margin-top: 24px; }
 
-.btn-login {
-  width: 90%;
-  height: 50px;
-  line-height: 50px;
-  margin: 0 auto;
-  font-size: 2.0rem;
-  text-align: center;
-  color: #fff;
-  background: #f5d0a8;
-  border-radius: 8px; }
+.dis { margin-top: 5%; }
 
-.switch, .forgot {
-  font-size: 1.9rem;
-  color: #446889;
-  text-align: right;
-  line-height: 60px;
-  padding-right: 5%; }
+.warning { width: 80%; height: 100px; font-size: 2.0rem; text-align: center; background: rgba(0, 0, 0, 0.5); position: fixed; top: 15%; left: 10%; display: none; line-height: 100px; color: #fff; }
 
-.forgot {
-  text-align: left;
-  padding-left: 5%;
-  font-size: 1.6rem;
-  line-height: 50px; }
-
-fieldset {
-  border: none;
-  border-top: 1px solid #999;
-  font-size: 1.8rem;
-  width: 90%;
-  margin: 40px auto 0 auto; }
-  fieldset legend {
-    color: #999;
-    text-align: center; }
-  fieldset .icons {
-    width: 33%;
-    height: 175px;
-    text-align: center;
-    font-family: 'iconfont';
-    float: left; }
-    fieldset .icons .we, fieldset .icons .qq, fieldset .icons .sina {
-      font-size: 6.0rem;
-      color: #30ce39;
-      margin-top: 25px; }
-    fieldset .icons .qq {
-      color: #2ab6fa;
-      font-size: 5.8rem; }
-    fieldset .icons .sina {
-      color: #ff7665; }
-    fieldset .icons .appname {
-      margin-top: 20px;
-      color: #333;
-      font-size: 1.6rem; }
-    fieldset .icons .h {
-      margin-top: 24px; }
-
-.dis {
-  margin-top: 5%; }
-
-.warning {
-  width: 80%;
-  height: 100px;
-  font-size: 2.0rem;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 15%;
-  left: 10%;
-  display: none;
-  line-height: 100px;
-  color: #fff; }
+/*# sourceMappingURL=style.css.map */

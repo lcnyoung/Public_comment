@@ -1,0 +1,15 @@
+.accveri, .passveri, .newpass { width: calc(100% - 30px); height: 30px; background: #fff; padding: 15px; margin-top: 30px; border-bottom: 1px solid #e1e1e1; }
+.accveri .acc-prefix, .passveri .acc-prefix, .newpass .acc-prefix, .passveri .pass-pre, .newpass .new-pre { width: 20%; height: 30px; line-height: 30px; font-size: 1.3rem; float: left; font-weight: 550; border-right: 1px solid #e1e1e1; text-indent: 1em; }
+.accveri .account-inp, .passveri .account-inp, .newpass .account-inp, .passveri .pass-inp, .newpass .new-inp { width: 70%; height: 30px; line-height: 30px; float: left; position: relative; }
+.accveri .account-inp .account-input, .passveri .account-inp .account-input, .newpass .account-inp .account-input, .passveri .pass-inp .account-input, .newpass .new-inp .account-input, .passveri .pass-inp .pass-input, .newpass .new-inp .new-input { width: 60%; height: 30px; outline: none; border: none; font-size: 1.5rem; text-indent: 1em; position: absolute; left: 0; top: 0; color: #999; }
+.accveri .account-inp .account-input:focus, .passveri .account-inp .account-input:focus, .newpass .account-inp .account-input:focus, .passveri .pass-inp .account-input:focus, .newpass .new-inp .account-input:focus, .passveri .pass-inp .pass-input:focus, .newpass .new-inp .new-input:focus { color: red; }
+
+.passveri { margin-top: 0; }
+
+.newpass { margin-top: 0; border: none; }
+
+.commit { width: 90%; height: 50px; line-height: 50px; margin: 100px auto; font-size: 2.0rem; text-align: center; color: #fff; background: #f5d0a8; border-radius: 8px; }
+
+.warn { width: 80%; height: 100px; font-size: 1.4rem; text-align: center; background: rgba(0, 0, 0, 0.5); position: fixed; top: 15%; left: 10%; display: none; line-height: 100px; color: #fff; }
+
+/*# sourceMappingURL=modify.css.map */

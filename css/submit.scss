@@ -1,0 +1,106 @@
+@import url(../font/iconfont.css);
+.billname{
+    width: 100%;
+    height: 50px;
+    font-size: 1.6rem;
+    line-height: 50px;
+    background: #f0f0f0;
+    text-indent: 1em;
+    color: #878787;
+    .unit-price{
+        font-size: 1.2rem;
+        float: right;
+        margin-right: 3%;
+    }
+}
+.count{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #e1e1e1;
+    line-height: 50px;
+    font-size: 1.6rem;
+    color: #878787;
+    background: #fff;
+    .count-l{
+        float: left;
+        text-indent: 1em;
+    }
+    .count-r{
+        float: right;
+        margin-right: 3%;
+        width: 40%;
+        height: 100%;
+        line-height: 50px;
+        font-family: 'iconfont';
+        text-align: right;
+    }
+    .plus{
+        font-size: 1.9rem;
+        color: red;
+    }
+    .count-inp{
+        width: 40px;
+        height: 25px;
+        text-align: center;
+        outline: none;
+        line-height: 30px;
+    }
+}
+.total{
+    @extend .count;
+    border-bottom: 1px solid #e1e1e1;
+    .total-l{
+        @extend .count-l;
+    }
+    .total-r{
+        @extend .count-r;
+        total-price{
+            color: #999;
+        }
+    }
+}
+.discount{
+    @extend .count;
+    margin-top: 15px;
+    .dis-l{
+        @extend .count-l;
+    }
+    .dis-r{
+        @extend .count-r;
+    }
+}
+.allbill{
+    @extend .count;
+    border-bottom: 1px solid #e1e1e1;
+    .all-l{
+        @extend .count-l;
+    }
+    .all-r{
+        @extend .count-r;
+        .all-money{
+            color: #ff6633;
+        }
+    }
+}
+.mobilenum{
+    @extend .count;
+    border-bottom: 1px solid #e1e1e1;
+    margin-top: 15px;
+    .mobi-l{
+        @extend .count-l;
+    }
+    .mobi-r{
+        @extend .count-r;
+    }
+}
+.btn-submit{
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    margin: 5px auto;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #fff;
+    background: #ff6633;
+    border-radius: 8px;
+}
