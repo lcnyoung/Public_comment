@@ -1,61 +1,113 @@
 @import url("../font/iconfont.css");
-.back, .share, .collect {
-  width: 74px;
-  line-height: 130px;
-  float: left;
-  margin-left: 3%;
-  color: #ff6633;
-  font-family: 'iconfont';
-  font-size: 6.0rem; }
-
-.share, .collect {
-  float: right;
-  margin-right: 2%;
-  margin-left: 0; }
-
-.collect {
-  line-height: 120px; }
-
 .saleshow {
-  height: 550px;
+  height: 220px;
   width: 100%;
   background: url("../imgs/lobster.jpg") no-repeat;
   background-size: cover;
   overflow: hidden; }
   .saleshow .sale-title {
-    font-size: 6.0rem;
-    line-height: 90px;
-    margin-top: 310px;
+    font-size: 3.0rem;
+    line-height: 45px;
+    margin-top: 110px;
     color: #fff;
     margin-left: 2%; }
   .saleshow .sale-des {
-    font-size: 3.6rem;
-    line-height: 60px;
+    font-size: 1.8rem;
+    line-height: 30px;
     color: #fff;
     margin-left: 2%; }
 
 .saleprop {
   width: 100%;
-  height: 140px;
+  height: 50px;
   color: #65c07a;
   background: #fff;
   border-bottom: 1px solid #d7d7d7; }
   .saleprop .props, .saleprop .soldcount {
-    font-size: 3.0rem;
-    line-height: 140px;
+    font-size: 1.2rem;
+    line-height: 50px;
     width: auto;
     margin-left: 3%;
     font-family: 'iconfont';
     float: left; }
   .saleprop .iconsize {
-    font-size: 4.0rem; }
+    font-size: 1.5rem; }
   .saleprop .soldcount {
     color: #999;
     float: right;
     margin-right: 6%; }
 
+.comments {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border-top: #d7d7d7 1px solid;
+  border-bottom: #d7d7d7 1px solid;
+  margin-top: 15px; }
+  .comments .rate-l, .comments .rate-r {
+    font-size: 1.6rem;
+    line-height: 50px;
+    margin-left: 3%;
+    color: #333;
+    float: left; }
+    .comments .rate-l .precent, .comments .rate-r .precent {
+      color: #ff6633; }
+  .comments .rate-r {
+    color: #999;
+    float: right;
+    margin-right: 3%; }
+
+.location {
+  border-top: #d7d7d7 1px solid;
+  border-bottom: #d7d7d7 1px solid;
+  width: 100%;
+  height: 220px;
+  margin-top: 15px;
+  font-size: 1.6rem;
+  background: #fff; }
+  .location .shops {
+    margin-left: 3%;
+    width: 97%;
+    height: 50px;
+    line-height: 50px;
+    color: #666;
+    border-bottom: #d7d7d7 1px solid; }
+    .location .shops .shops-l {
+      float: left; }
+    .location .shops .shops-r {
+      float: right;
+      margin-right: 3%; }
+  .location .shops-list {
+    margin-left: 3%;
+    width: 97%;
+    height: 100px;
+    border-bottom: #d7d7d7 1px solid;
+    color: #333; }
+    .location .shops-list .list-l {
+      font-size: 2.0rem;
+      height: 100px;
+      width: 100px;
+      line-height: 60px;
+      float: left; }
+      .location .shops-list .list-l .score {
+        width: 90%;
+        height: 35px;
+        background: #ccc; }
+    .location .shops-list .list-r {
+      float: right;
+      margin-right: 3%;
+      width: 20%;
+      border-left: 1px solid #d7d7d7;
+      height: 60px;
+      margin-top: 20px;
+      font-family: 'iconfont';
+      font-size: 3.0rem;
+      color: #ff6633;
+      line-height: 60px;
+      text-align: center; }
+
 .buy {
-  height: 150px;
+  height: 70px;
   width: 100%;
   position: fixed;
   left: 0;
@@ -63,26 +115,32 @@
   border-top: 1px solid #d4d4d4;
   background: #fff; }
   .buy .price {
-    height: 70px;
+    height: 30px;
     color: #ff6633;
-    font-size: 7.0rem;
-    margin-top: 30px;
+    font-size: 3.0rem;
+    margin-top: 15px;
     text-indent: 1em;
     float: left; }
   .buy .font30 {
-    font-size: 3.0rem; }
+    font-size: 1.5rem; }
   .buy .oldprice {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
     color: #999; }
   .buy .btn-buy {
-    width: 300px;
-    height: 100px;
+    width: 30%;
+    height: 40px;
     background: #ff6633;
     margin-right: 5%;
-    margin: 25px;
-    line-height: 100px;
-    font-size: 4.6rem;
+    margin-top: 15px;
+    line-height: 40px;
+    font-size: 1.5rem;
     color: #fff;
     float: right;
     text-align: center;
-    border-radius: 10px; }
+    border-radius: 5px; }
+
+@media screen and (min-width: 768px) {
+  .saleshow {
+    height: 400px; }
+    .saleshow .sale-title {
+      margin-top: 300px; } }

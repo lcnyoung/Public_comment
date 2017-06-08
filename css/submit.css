@@ -1,0 +1,70 @@
+@import url(../font/iconfont.css);
+.billname {
+  width: 100%;
+  height: 50px;
+  font-size: 1.6rem;
+  line-height: 50px;
+  background: #f0f0f0;
+  text-indent: 1em;
+  color: #878787; }
+  .billname .unit-price {
+    font-size: 1.2rem;
+    float: right;
+    margin-right: 3%; }
+
+.count, .total, .discount, .allbill, .mobilenum {
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid #e1e1e1;
+  line-height: 50px;
+  font-size: 1.6rem;
+  color: #878787;
+  background: #fff; }
+  .count .count-l, .total .count-l, .discount .count-l, .allbill .count-l, .mobilenum .count-l, .total .total-l, .discount .dis-l, .allbill .all-l, .mobilenum .mobi-l {
+    float: left;
+    text-indent: 1em; }
+  .count .count-r, .total .count-r, .discount .count-r, .allbill .count-r, .mobilenum .count-r, .total .total-r, .discount .dis-r, .allbill .all-r, .mobilenum .mobi-r {
+    float: right;
+    margin-right: 3%;
+    width: 40%;
+    height: 100%;
+    line-height: 50px;
+    font-family: 'iconfont';
+    text-align: right; }
+  .count .plus, .total .plus, .discount .plus, .allbill .plus, .mobilenum .plus {
+    font-size: 1.9rem;
+    color: red; }
+  .count .count-inp, .total .count-inp, .discount .count-inp, .allbill .count-inp, .mobilenum .count-inp {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    outline: none;
+    line-height: 30px; }
+
+.total {
+  border-bottom: 1px solid #e1e1e1; }
+  .total .total-r total-price {
+    color: #999; }
+
+.discount {
+  margin-top: 15px; }
+
+.allbill {
+  border-bottom: 1px solid #e1e1e1; }
+  .allbill .all-r .all-money {
+    color: #ff6633; }
+
+.mobilenum {
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 15px; }
+
+.btn-submit {
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  margin: 5px auto;
+  font-size: 2.0rem;
+  text-align: center;
+  color: #fff;
+  background: #ff6633;
+  border-radius: 8px; }

@@ -16,11 +16,47 @@ body {
 
 .top {
   width: 100%;
-  height: 130px;
-  font-size: 4.4rem;
-  line-height: 130px;
+  height: 60px;
+  font-size: 2.2rem;
+  line-height: 60px;
   text-align: center;
   background: #fcfcfc;
   color: #323232;
   font-weight: 550;
-  box-shadow: 1px 1px 6px 6px #ddd; }
+  box-shadow: 1px 1px 3px 3px #ddd; }
+
+.back, .share, .collect {
+  width: 37px;
+  line-height: 60px;
+  float: left;
+  margin-left: 3%;
+  color: #ff6633;
+  font-family: 'iconfont';
+  font-size: 3.0rem; }
+
+.share, .collect {
+  float: right;
+  margin-right: 2%;
+  margin-left: 0; }
+
+.collect {
+  line-height: 55px; }
+
+.thumb, .arrow-right {
+  font-family: 'iconfont';
+  color: #bbb;
+  font-size: 2.0rem; }
+
+.saleprop {
+  width: 100%;
+  height: 50px;
+  color: #65c07a; }
+  .saleprop .props {
+    font-size: 1.2rem;
+    line-height: 50px;
+    width: auto;
+    margin-left: 3%;
+    font-family: 'iconfont';
+    float: left; }
+  .saleprop .iconsize {
+    font-size: 1.5rem; }

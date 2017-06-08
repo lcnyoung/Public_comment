@@ -29,9 +29,11 @@ $(function(){
         if(val !== code){
             $('.warning').fadeIn().html('验证码有误').fadeOut(3000);
             $('.inp-code').val('');
-        } else if(val == code){
+        } else if(val == '' || $('.inp-mobi').val() == ''){
+            $('.warning').fadeIn().html('请输入正确的手机号或验证码').fadeOut(3000);
+        }else if(val == code){
             $('.warning').fadeIn().html('登陆成功').fadeOut(3000);
-        }
+        } 
     })
 
 })
